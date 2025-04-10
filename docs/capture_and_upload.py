@@ -6,8 +6,8 @@ from PIL import ImageGrab
 import pygetwindow as gw
 
 # Configuration
-REPO_PATH = "path/to/your/local/repo"  # Update this path
-GITHUB_REPO_URL = "https://github.com/your-username/roblox-live-view.git"
+REPO_PATH = r"C:\Users\jmyro\Downloads\roblox-live-view"
+GITHUB_REPO_URL = "https://github.com/thefiringflame32/roblox-live-view.git"
 SCREENSHOT_DIR = os.path.join(REPO_PATH, "docs/images")
 
 def capture_roblox_windows():
