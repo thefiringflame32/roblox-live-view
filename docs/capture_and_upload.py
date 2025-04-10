@@ -5,6 +5,10 @@ import git
 from PIL import ImageGrab
 import pygetwindow as gw
 
+import warnings
+warnings.filterwarnings("ignore", category=ResourceWarning)
+
+
 # Configuration
 REPO_PATH = r"C:\Users\jmyro\Downloads\roblox-live-view"
 GITHUB_REPO_URL = "https://github.com/thefiringflame32/roblox-live-view.git"
